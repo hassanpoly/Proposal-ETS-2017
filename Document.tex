@@ -1,0 +1,229 @@
+\documentclass[letterpaper,12pt,oneside,final]{book}
+\usepackage{bbding}
+\usepackage{graphicx}
+\usepackage[cmex10]{amsmath}
+\usepackage{array}
+\usepackage{mdwmath}
+\usepackage{mdwtab}
+\usepackage[caption=false,font=footnotesize]{subfig}
+\usepackage{fixltx2e}
+\usepackage{url}
+
+\usepackage{booktabs}
+\usepackage[capitalise]{cleveref}
+\usepackage{mdwlist}
+\usepackage{multirow}
+\usepackage[comma,numbers,compress,square]{natbib}
+\usepackage{pgfplots}
+\usepackage{placeins}
+\usepackage{xspace}
+
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{paralist}
+\usepackage{wasysym}
+\usepackage{comment}
+\usepackage{color}
+\usepackage{leading}
+\usepackage{filecontents}
+\usepackage{verbatim}
+\usepackage{balance}
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{xxcolor}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{amssymb,amsmath}
+
+\usepackage{pgfgantt}
+
+
+\usetikzlibrary{arrows,shadows,petri,automata,shapes,shadows,trees}
+
+\tikzset{
+  basic/.style  = {draw, text width=2cm, drop shadow, font=\sffamily, rectangle},
+  root/.style   = {basic, rounded corners=2pt, thin, align=center,
+                   fill=green!30},
+  level 2/.style = {basic, rounded corners=6pt, thin,align=center, fill=green!60,
+                   text width=8em},
+  level 3/.style = {basic, thin, align=left, fill=pink!60, text width=6.5em}
+}
+\usepgfplotslibrary{groupplots}
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+%%
+%%  Template de mémoire de maîtrise ou thèse de doctorat.
+%%  Normalement, il n'est pas nécessaire de modifier ce document
+%%  sauf pour changer les noms des fichiers à inclure.
+%%
+%%  Version: 2010-03-16
+%%
+%%  Accepte les caractères accentués dans le document (UTF-8).
+\usepackage[utf8]{inputenc}
+
+%%
+%% Support pour l'anglais et le français (français par défaut).
+\usepackage[cyr]{aeguill}
+\usepackage[english,frenchb]{babel}
+%%
+%% Charge le module d'affichage graphique.
+\usepackage{graphicx}
+%%
+%% Recherche des images dans les répertoires.
+\graphicspath{{./images/}{./dia/}{./gnuplot/}}
+%%
+%% Un float peut apparaître seulement après sa définition, jamais avant.
+\usepackage{flafter,placeins}
+%%
+%% Utilisation de natbib pour les citations et la bibliographie.
+\usepackage{natbib}
+%%
+%% Autres packages.
+\usepackage{amsmath,color,soulutf8,longtable,colortbl,setspace,ifthen,xspace,url,pdflscape}
+%%
+%% Support des acronymes.
+\usepackage[nolist]{acronym}
+\onehalfspacing                % Interligne 1.5.
+%%
+%% Définition d'un style de page avec seulement le numéro de page à
+%% droite. On s'assure aussi que le style de page par défaut soit
+%% d'afficher le numéro de page en haut à droite.
+\usepackage{fancyhdr}
+\fancypagestyle{pagenumber}{\fancyhf{}\fancyhead[R]{\thepage}}
+\renewcommand\headrulewidth{0pt}
+\makeatletter
+\let\ps@plain=\ps@pagenumber
+\makeatother
+%%
+%% Module qui permet la création des bookmarks dans un fichier PDF.
+%\usepackage[dvipdfm]{hyperref}
+\usepackage{hyperref}
+\makeatletter
+\providecommand*{\toclevel@compteur}{0}
+\makeatother
+%%
+%% Définitions spécifiques au format de rédaction de Poly.
+\usepackage{MemoireThese}
+%%
+%% Définitions spécifiques à l'étudiant.
+\include{Definitions_Etudiant}
+\ifthenelse{\equal{\monDiplome}{M}}{
+\newcommand\monSujet{Mémoire de maîtrise}
+\newcommand\monDipl{Maîtrise ès sciences appliquées}
+}{
+\newcommand\monSujet{Thèse de doctorat}
+\newcommand\monDipl{Philosophi\ae{} Doctor}
+}
+%%
+%% Informations qui sont stockées dans un fichier PDF.
+\hypersetup{
+  pdftitle={\monTitre},
+  pdfsubject={\monSujet},
+  pdfauthor={\monPrenom{} \monNom},
+  pdfkeywords={\mesMotsClef},
+  bookmarksnumbered,
+  pdfstartview={FitV},
+  urlcolor=cyan
+}
+%%
+%% Il y a un document par chapitre du mémoire.
+%%
+\begin{document}
+%%
+%% Page de titre du mémoire.
+\frontmatter
+% Compte optionellement la page de garde dans la pagination.
+\ifthenelse{\equal{\PageGarde}{O}}{\addtocounter{page}{1}}{}
+\thispagestyle{empty}%
+\begin{center}%
+\vspace*{\stretch{1}}
+ÉCOLE DE TECHNOLOGIE SUPÉRIEURE \\
+\vspace*{\stretch{1}}
+\MakeUppercase{\monTitre}\\
+\vspace*{\stretch{1}}
+\MakeUppercase{\monPrenom~\monNom}\\
+DÉPARTEMENT DE \MakeUppercase{\monDepartement}\\
+ÉCOLE DE TECHNOLOGIE SUPÉRIEURE\\
+\vspace*{\stretch{1}}
+%\ifthenelse{\equal{\monDiplome}{M}}{MÉMOIRE PRÉSENTÉ}{THÈSE PRÉSENTÉE} EN VUE DE L'OBTENTION\\
+%DU DIPLÔME DE \MakeUppercase{\monDipl}\\
+\ifthenelse{\equal{\monDiplome}{M}}{whatever}{} RESEARCH PROPOSAL\\  SUBMITTED AS A PARTIAL FULFILLMENT OF THE REQUIREMENTS\\ FOR THE DEGREE OF \MakeUppercase{\monDipl}\\
+(\MakeUppercase{\maDiscipline})\\
+(DGA-1032)\\
+\MakeUppercase{\moisDepot} \anneeDepot
+\end{center}%
+\vspace*{\stretch{1}}
+\copyright~\monPrenom~\monNom, \anneeDepot.
+%%
+%% Identification des membres du jury.
+%%
+\newpage\thispagestyle{empty}%
+\begin{center}%
+\vspace*{\stretch{2}}
+\ul{ÉCOLE DE TECHNOLOGIE SUPÉRIEURE}\\
+\vspace*{\stretch{1}}
+\ul{UNIVERSITÉ DU QUÉBEC}\\
+\vspace*{\stretch{2}}
+%Ce\ifthenelse{\equal{\monDiplome}{M}}{~mémoire intitulé}{tte thèse intitulée}:\\
+\ifthenelse{\equal{\monDiplome}{M}}{whatever}{title of this research proposal}:\\
+\vspace*{\stretch{1}}
+\MakeUppercase{\monTitre}\\
+\vspace*{\stretch{2}}
+\end{center}%
+%\begin{flushleft}
+%présenté\ifthenelse{\equal{\monDiplome}{M}}{}{e}
+%par:~\ul{\mbox{\MakeUppercase{\monNom} \monPrenom}}\\
+%en vue de l'obtention du diplôme de:~\ul{\mbox{\monDipl}}\\
+%a été dûment accepté\ifthenelse{\equal{\monDiplome}{M}}{}{e} par le jury d'examen constitué de:\end{flushleft}
+\begin{flushleft}
+submitted by:~\ul{\mbox{\MakeUppercase{\monNom} \monPrenom}}\\
+%submitted as a partial fulfillment\\ of the requirements\\
+%for the degree of:~\ul{\mbox{\monDipl}}\\
+in the context of the:~\ul{\mbox{comprehensive examination}}\\
+to the committee:\end{flushleft}
+\vspace*{\stretch{2}}
+\monJury
+%%
+\pagestyle{pagenumber}%
+%\include{/sections/Dedicace}          % Dédicace du document.
+%\include{/sections/Remerciements}     % Remerciements.
+\include{./sections/Abstract}          % Résumé du sujet en anglais.
+%\include{./sections/Resume_sujet}      % Résumé du sujet en français.
+%%
+%% Table des matières.
+%\renewcommand\contentsname{TABLE DES MATIÈRES}
+\renewcommand\contentsname{TABLE OF CONTENTS}
+\tableofcontents
+%%
+%% Liste des tableaux.
+%\renewcommand\listtablename{LISTE DES TABLEAUX}
+%\renewcommand\listtablename{LIST OF TABLES}
+%\listoftables
+%%
+%% Table des figures.
+%\renewcommand\listfigurename{LISTE DES FIGURES}
+\renewcommand\listfigurename{LIST OF FIGURES}
+\listoffigures
+%%
+%% Liste des annexes au besoin.
+%\ifthenelse{\equal{\AnnexesPresentes}{O}}{\listofappendices}{}
+\include{./sections/Abbreviations}       % Liste des sigles et abréviations.
+\mainmatter
+\include{./sections/Introduction}       % Introduction au sujet de recherche.
+\include{./sections/Related}  % Revue de littérature.
+\include{./sections/Approach}         
+\include{./sections/Preliminary}         
+\include{./sections/Conclusions}         % Conclusion.
+%\backmatter
+%\renewcommand\bibname{RÉFÉRENCES}
+\renewcommand\bibname{REFERENCES}
+\bibliography{Document}
+\bibliographystyle{polymtl}  % Format de la bibliographie.
+%
+%\ifthenelse{\equal{\AnnexesPresentes}{O}}{
+%\appendix%
+%\newcommand{\Annexe}[1]{\annexe{#1}\setcounter{figure}{0}\setcounter{table}{0}\setcounter{footnote}{0}}%
+%\include{/sections/Annexes}}{}
+\end{document}

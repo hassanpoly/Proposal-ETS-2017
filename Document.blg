@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Document.aux
+A level-1 auxiliary file: ./sections/Abstract.aux
+A level-1 auxiliary file: ./sections/Abbreviations.aux
+A level-1 auxiliary file: ./sections/Introduction.aux
+A level-1 auxiliary file: ./sections/Related.aux
+A level-1 auxiliary file: ./sections/Approach.aux
+A level-1 auxiliary file: ./sections/Preliminary.aux
+A level-1 auxiliary file: ./sections/Conclusions.aux
+The style file: polymtl.bst
+Database file #1: Document.bib
+Warning--empty pages in NEWCAS
+You've used 35 entries,
+            2611 wiz_defined-function locations,
+            809 strings with 12530 characters,
+and the built_in function-call counts, 18096 in all, are:
+= -- 1692
+> -- 874
+< -- 27
++ -- 370
+- -- 321
+* -- 1667
+:= -- 3124
+add.period$ -- 115
+call.type$ -- 35
+change.case$ -- 355
+chr.to.int$ -- 35
+cite$ -- 36
+duplicate$ -- 781
+empty$ -- 1246
+format.name$ -- 373
+if$ -- 3549
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 34
+newline$ -- 176
+num.names$ -- 107
+pop$ -- 284
+preamble$ -- 1
+purify$ -- 296
+quote$ -- 0
+skip$ -- 476
+stack$ -- 0
+substring$ -- 1047
+swap$ -- 266
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 204
+warning$ -- 1
+while$ -- 132
+width$ -- 0
+write$ -- 457
+(There was 1 warning)

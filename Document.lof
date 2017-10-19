@@ -1,0 +1,16 @@
+\select@language {french}
+\select@language {english}
+\select@language {french}
+\select@language {english}
+\contentsline {figure}{\numberline {Figure\nobreakspace 1.1}{\ignorespaces Neutron Flux at 40,000 Feet.}}{3}{figure.1.1}
+\select@language {english}
+\contentsline {figure}{\numberline {Figure\nobreakspace 2.1}{\ignorespaces FPGA Structure and Design Flow}}{6}{figure.2.1}
+\contentsline {figure}{\numberline {Figure\nobreakspace 2.2}{\ignorespaces Upset FPGA configuration bits may change the logic and routing.}}{8}{figure.2.2}
+\select@language {english}
+\select@language {english}
+\contentsline {figure}{\numberline {Figure\nobreakspace 4.1}{\ignorespaces Structure of the proposed cache.}}{20}{figure.4.1}
+\contentsline {figure}{\numberline {Figure\nobreakspace 4.2}{\ignorespaces The hash function uses a random number, the address bits, and four XOR stages to produce a random placement.}}{21}{figure.4.2}
+\contentsline {figure}{\numberline {Figure\nobreakspace 4.3}{\ignorespaces Execution Time Measurement}}{22}{figure.4.3}
+\select@language {english}
+\contentsline {figure}{\numberline {Figure\nobreakspace 5.1}{\ignorespaces Work breakdown structure.}}{25}{figure.5.1}
+\contentsline {figure}{\numberline {Figure\nobreakspace 5.2}{\ignorespaces Timetable.}}{26}{figure.5.2}

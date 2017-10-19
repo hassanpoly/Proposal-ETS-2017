@@ -1,0 +1,243 @@
+\begin{thebibliography}{35}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[Amoset {\it et~al}.(1991)]{Competitive}
+\uppercase{Amoset, F. {\it et~al}.} (1991).
+\newblock Worst-case execution time analysis for a java processor.
+\newblock \emph{Journal of Algorithms}, \underline{12}, 685--6--99.
+
+\bibitem[Angermeier {\it et~al}.(2011)]{angermeier2011runtime}
+\uppercase{Angermeier, J., Ziener, D., Glas, M. {\upshape \lowercase{and}}
+  Teich, J.} (2011).
+\newblock Runtime stress-aware replica placement on reconfigurable devices
+  under safety constraints.
+\newblock  \emph{Field-Programmable Technology (FPT), 2011 International
+  Conference on}. IEEE,  1--6.
+
+\bibitem[Anwar {\it et~al}.(2015)]{NEWCAS}
+\uppercase{Anwar, h., Chen, C. {\upshape \lowercase{and}} Beltrame, G.} (2015).
+\newblock A probabilistically analysable cache implementation on fpga.
+\newblock  \emph{New Circuit and System (NEWCAS), 2015 15th International
+  Conference on}. IEEE.
+
+\bibitem[Bandyopadhyay \lowercase{and}
+  Bhattacharya(2015)]{bandyopadhyay2015discrete}
+\uppercase{Bandyopadhyay, S. {\upshape \lowercase{and}} Bhattacharya, R.}
+  (2015).
+\newblock \emph{Discrete and Continuous Simulation: Theory and Practice}.
+\newblock CRC Press.
+
+\bibitem[Bellato {\it et~al}.(2004)]{bellato2004evaluating}
+\uppercase{Bellato, M., Bernardi, P., Bortolato, D., Candelori, A., Ceschia,
+  M., Paccagnella, A., Rebaudengo, M., Sonza~Reorda, M., Violante, M. {\upshape
+  \lowercase{and}} Zambolin, P.} (2004).
+\newblock Evaluating the effects of seus affecting the configuration memory of
+  an sram-based fpga.
+\newblock  \emph{Proceedings of the conference on Design, automation and test
+  in Europe-Volume 1}. IEEE Computer Society,  10584.
+
+\bibitem[Berg {\it et~al}.(2008)]{berg2008effectiveness}
+\uppercase{Berg, M., Poivey, C., Petrick, D., Espinosa, D., Lesea, A., LaBel,
+  K., Friendlich, M., Kim, H. {\upshape \lowercase{and}} Phan, A.} (2008).
+\newblock Effectiveness of internal versus external seu scrubbing mitigation
+  strategies in a xilinx fpga: Design, test, and analysis.
+\newblock \emph{IEEE Transactions on Nuclear Science}, \underline{4},
+  2259--2266.
+
+\bibitem[Bolchini {\it et~al}.(2007)]{bolchini2007tmr}
+\uppercase{Bolchini, C., Miele, A. {\upshape \lowercase{and}} Santambrogio,
+  M.~D.} (2007).
+\newblock Tmr and partial dynamic reconfiguration to mitigate seu faults in
+  fpgas.
+\newblock  \emph{Defect and Fault-Tolerance in VLSI Systems, 2007. DFT'07. 22nd
+  IEEE International Symposium on}. IEEE,  87--95.
+
+\bibitem[Boslaugh \lowercase{and} Watters(2008)]{books/daglib/0020904}
+\uppercase{Boslaugh, S. {\upshape \lowercase{and}} Watters, P.~A.} (2008).
+\newblock \emph{Statistics in a nutshell - a desktop quick reference.}
+\newblock O'Reilly.
+
+\bibitem[Glein {\it et~al}.(2014)]{glein2014self}
+\uppercase{Glein, R., Schmidt, B., Rittner, F., Teich, J. {\upshape
+  \lowercase{and}} Ziener, D.} (2014).
+\newblock A self-adaptive seu mitigation system for fpgas with an internal
+  block ram radiation particle sensor.
+\newblock  \emph{Field-Programmable Custom Computing Machines (FCCM), 2014 IEEE
+  22nd Annual International Symposium on}. IEEE,  251--258.
+
+\bibitem[Goresky \lowercase{and} Klapper(2003)]{Goresky:2003:EMR:945511.945514}
+\uppercase{Goresky, M. {\upshape \lowercase{and}} Klapper, A.} (2003).
+\newblock Efficient multiply-with-carry random number generators with maximal
+  period.
+\newblock \emph{ACM Trans. Model. Comput. Simul.}, \underline{13}, 310--321.
+
+\bibitem[Gustafsson {\it et~al}.(2010)]{mrtc:bench}
+\uppercase{Gustafsson, J., Betts, A., Ermedahl, A. {\upshape \lowercase{and}}
+  Lisper, B.} (2010).
+\newblock The {M{\"a}lardalen} {WCET} benchmarks -- past, present and future.
+\newblock  B.~Lisper, editor, \emph{WCET2010}. OCG, Brussels, Belgium,
+  137--147.
+
+\bibitem[Hauck \lowercase{and} DeHon(2010)]{hauck2010reconfigurable}
+\uppercase{Hauck, S. {\upshape \lowercase{and}} DeHon, A.} (2010).
+\newblock \emph{Reconfigurable computing: the theory and practice of FPGA-based
+  computation}, vol.~1.
+\newblock Morgan Kaufmann.
+
+\bibitem[Heiner {\it et~al}.(2009)]{heiner2009fpga}
+\uppercase{Heiner, J., Sellers, B., Wirthlin, M. {\upshape \lowercase{and}}
+  Kalb, J.} (2009).
+\newblock Fpga partial reconfiguration via configuration scrubbing.
+\newblock  \emph{Field Programmable Logic and Applications, 2009. FPL 2009.
+  International Conference on}. IEEE,  99--104.
+
+\bibitem[Herrera-Alzu \lowercase{and} Lopez-Vallejo(2013)]{herrera2013design}
+\uppercase{Herrera-Alzu, I. {\upshape \lowercase{and}} Lopez-Vallejo, M.}
+  (2013).
+\newblock Design techniques for xilinx virtex fpga configuration memory
+  scrubbers.
+\newblock \emph{Nuclear Science, IEEE Transactions on}, \underline{60},
+  376--385.
+
+\bibitem[Hobeika {\it et~al}.(2013)]{hobeika2013flight}
+\uppercase{Hobeika, C., Pichette, S., Ghodbane, A., Thibeault, C., Audet, Y.,
+  Boland, J.-F. {\upshape \lowercase{and}} Saad, M.} (2013).
+\newblock Flight control fault models based on seu emulation.
+\newblock \emph{SAE International Journal of Aerospace}, \underline{6},
+  643--649.
+
+\bibitem[Hobeika {\it et~al}.(2014)]{hobeika2014multi}
+\uppercase{Hobeika, C., Pichette, S., Leonard, M., Thibeault, C., Boland, J.-F.
+  {\upshape \lowercase{and}} Audet, Y.} (2014).
+\newblock Multi-abstraction level signature generation and comparison based on
+  radiation single event upset.
+\newblock  \emph{On-Line Testing Symposium (IOLTS), 2014 IEEE 20th
+  International}. IEEE,  212--215.
+
+\bibitem[Jacobs {\it et~al}.(2012)]{jacobs2012reconfigurable}
+\uppercase{Jacobs, A., Cieslewski, G., George, A.~D., Gordon-Ross, A. {\upshape
+  \lowercase{and}} Lam, H.} (2012).
+\newblock Reconfigurable fault tolerance: A comprehensive framework for
+  reliable and adaptive fpga-based space computing.
+\newblock \emph{ACM Transactions on Reconfigurable Technology and Systems
+  (TRETS)}, \underline{5}, 21.
+
+\bibitem[Kosmidis {\it et~al}.(2013)]{Kosmidis:2013:CDP:2485288.2485416}
+\uppercase{Kosmidis, L. {\it et~al}.} (2013).
+\newblock A cache design for probabilistically analysable real-time systems.
+\newblock  \emph{Proceedings of the Conference on Design, Automation and Test
+  in Europe}. DATE '13,  513--518.
+
+\bibitem[Lesea {\it et~al}.(2005)]{lesea2005rosetta}
+\uppercase{Lesea, A., Drimer, S., Fabula, J.~J., Carmichael, C. {\upshape
+  \lowercase{and}} Alfke, P.} (2005).
+\newblock The rosetta experiment: atmospheric soft error rate testing in
+  differing technology fpgas.
+\newblock \emph{IEEE Transactions on Device and Materials Reliability},
+  \underline{5}, 317--328.
+
+\bibitem[Lyons \lowercase{and} Vanderkulk(1962)]{lyons1962use}
+\uppercase{Lyons, R.~E. {\upshape \lowercase{and}} Vanderkulk, W.} (1962).
+\newblock The use of triple-modular redundancy to improve computer reliability.
+\newblock \emph{IBM Journal of Research and Development}, \underline{6},
+  200--209.
+
+\bibitem[Matsumoto {\it et~al}.(1998)]{Matsumoto:1998:MTE:272991.272995}
+\uppercase{Matsumoto, M. {\it et~al}.} (1998).
+\newblock Mersenne twister: A 623-dimensionally equidistributed uniform
+  pseudo-random number generator.
+\newblock \emph{ACM Trans. Model. Comput. Simul.}, \underline{8}, 3--30.
+
+\bibitem[Open-core(accessed 2015)]{ION}
+\uppercase{Open-core} (accessed 2015).
+\newblock {Available: https://github.com/jaruiz/ION}.
+
+\bibitem[Opencores(accessed 2015)]{OpenCores}
+\uppercase{Opencores} (accessed 2015).
+\newblock Available:
+  http://opencores.org/project/complex-gaussian-pseudo-random-number-generator.
+
+\bibitem[Ostler {\it et~al}.(2009)]{ostler2009sram}
+\uppercase{Ostler, P.~S., Caffrey, M.~P., Gibelyou, D.~S., Graham, P.~S.,
+  Morgan, K.~S., Pratt, B.~H., Quinn, H.~M. {\upshape \lowercase{and}}
+  Wirthlin, M.~J.} (2009).
+\newblock Sram fpga reliability analysis for harsh radiation environments.
+\newblock \emph{Nuclear Science, IEEE Transactions on}, \underline{56},
+  3519--3526.
+
+\bibitem[Polito(accessed 2017)]{ITC}
+\uppercase{Polito} (accessed 2017).
+\newblock Available: http://www.cad.polito.it/downloads/tools/itc99.html.
+
+\bibitem[Quinn {\it et~al}.(2012)]{quinn2012orbit}
+\uppercase{Quinn, H., Graham, P., Morgan, K., Baker, Z., Caffrey, M., Smith, D.
+  {\upshape \lowercase{and}} Bell, R.} (2012).
+\newblock On-orbit results for the xilinx virtex-4 fpga.
+\newblock  \emph{2012 IEEE Radiation Effects Data Workshop}.  1--8.
+
+\bibitem[Quinn {\it et~al}.(2015)]{quinn2015using}
+\uppercase{Quinn, H., Robinson, W.~H., Rech, P., Aguirre, M., Barnard, A.,
+  Desogus, M., Entrena, L., Garcia-Valderas, M., Guertin, S.~M., Kaeli, D. {\it
+  et~al}.} (2015).
+\newblock Using benchmarks for radiation testing of microprocessors and fpgas.
+\newblock \emph{IEEE Transactions on Nuclear Science}, \underline{62},
+  2547--2554.
+
+\bibitem[Quinn \lowercase{and} Wirthlin(2015)]{quinn2015validation}
+\uppercase{Quinn, H. {\upshape \lowercase{and}} Wirthlin, M.} (2015).
+\newblock Validation techniques for fault emulation of sram-based fpgas.
+\newblock \emph{IEEE Transactions on Nuclear Science}, \underline{62},
+  1487--1500.
+
+\bibitem[Robache {\it et~al}.(2013)]{robache2013methodology}
+\uppercase{Robache, R., Boland, J.-F., Thibeault, C. {\upshape \lowercase{and}}
+  Savaria, Y.} (2013).
+\newblock A methodology for system-level fault injection based on gate-level
+  faulty behavior.
+\newblock  \emph{New Circuits and Systems Conference (NEWCAS), 2013 IEEE 11th
+  International}. IEEE,  1--4.
+
+\bibitem[Rockett {\it et~al}.(2007)]{rockett2007radiation}
+\uppercase{Rockett, L., Patel, D., Danziger, S., Cronquist, B. {\upshape
+  \lowercase{and}} Wang, J.} (2007).
+\newblock Radiation hardened fpga technology for space applications.
+\newblock  \emph{Aerospace Conference, 2007 IEEE}. IEEE,  1--7.
+
+\bibitem[Souari {\it et~al}.(2015)]{souari2015optimization}
+\uppercase{Souari, A., Thibeault, C., Blaqui{\`e}re, Y. {\upshape
+  \lowercase{and}} Velazco, R.} (2015).
+\newblock Optimization of seu emulation on sram fpgas based on sensitiveness
+  analysis.
+\newblock  \emph{On-Line Testing Symposium (IOLTS), 2015 IEEE 21st
+  International}. IEEE,  36--39.
+
+\bibitem[Tobiska {\it et~al}.(2015)]{SWE20216}
+\uppercase{Tobiska, W.~K., Atwell, W., Beck, P., Benton, E., Copeland, K.,
+  Dyer, C., Gersey, B., Getley, I., Hands, A., Holland, M., Hong, S., Hwang,
+  J., Jones, B., Malone, K., Meier, M.~M., Mertens, C., Phillips, T., Ryden,
+  K., Schwadron, N., Wender, S.~A., Wilkins, R. {\upshape \lowercase{and}}
+  Xapsos, M.~A.} (2015).
+\newblock Advances in atmospheric radiation measurements and modeling needed to
+  improve air safety.
+\newblock \emph{Space Weather}, \underline{13}, 202--210.
+\newblock 2015SW001169.
+
+\bibitem[Violante {\it et~al}.(2004)]{violante2004simulation}
+\uppercase{Violante, M., Sterpone, L., Ceschia, M., Bortolato, D., Bernardi,
+  P., Reorda, M.~S. {\upshape \lowercase{and}} Paccagnella, A.} (2004).
+\newblock Simulation-based analysis of seu effects in sram-based fpgas.
+\newblock \emph{IEEE Transactions on Nuclear science}, \underline{51},
+  3354--3359.
+
+\bibitem[Wirthlin {\it et~al}.(2014)]{wirthlin2014soft}
+\uppercase{Wirthlin, M., Takai, H. {\upshape \lowercase{and}} Harding, A.}
+  (2014).
+\newblock Soft error rate estimations of the kintex-7 fpga within the atlas
+  liquid argon (lar) calorimeter.
+\newblock \emph{Journal of Instrumentation}, \underline{9}, C01025.
+
+\bibitem[Xilinx(accessed 2017)]{xilinx}
+\uppercase{Xilinx} (accessed 2017).
+\newblock Available: http://www.xilinx.com.
+
+\end{thebibliography}

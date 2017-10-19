@@ -1,0 +1,58 @@
+\select@language {french}
+\contentsline {compteur}{ABSTRACT}{iii}{chapter*.1}
+\select@language {english}
+\select@language {french}
+\contentsline {compteur}{TABLE OF CONTENTS}{v}{chapter*.2}
+\contentsline {compteur}{LIST OF FIGURES}{vii}{chapter*.3}
+\contentsline {compteur}{LIST OF ABBREVIATIONS}{viii}{chapter*.4}
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}
+\select@language {english}
+\contentsline {section}{\numberline {1.1}Context and Motivation}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Problem Statement}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Research Objectives}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Novelty and Impact}{4}{section.1.4}
+\contentsline {chapter}{\numberline {2}LITERATURE REVIEW}{5}{chapter.2}
+\select@language {english}
+\contentsline {section}{\numberline {2.1}Radiation Environment}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Radiation Effects on FPGA}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Neutron Effects on Electronics}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}Fault Injection}{7}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Simulation}{8}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Emulation}{9}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Radiation testing}{10}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Fault Models}{11}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Stuck-at Fault Model}{11}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Functional Fault Model}{11}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Open Fault}{11}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}Stuck-On and Stuck-Off}{11}{subsection.2.5.4}
+\contentsline {section}{\numberline {2.6}Faults Behavioural Modeling}{11}{section.2.6}
+\contentsline {section}{\numberline {2.7}Combinational Testing Vs. Sequential Testing}{15}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Built-In Self-Test (BIST)}{15}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}All Test Pattern Generator (ATPG)}{15}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.3}Scan Chain Testing}{15}{subsection.2.7.3}
+\contentsline {section}{\numberline {2.8}Conclusion}{15}{section.2.8}
+\contentsline {chapter}{\numberline {3}PROPOSED APPROACH}{16}{chapter.3}
+\select@language {english}
+\contentsline {section}{\numberline {3.1}Research Axis 1: Measuring Sequential Circuit Testing and Reliability}{16}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Emulation Environment and Framework}{16}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Sequential Circuit Fault Injection Mechanism}{16}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Sequential Circuit Test Generation}{16}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Research Axis 2: Modeling of Sequential Circuit}{16}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Modeling of Sequential Circuit with Model Checking}{16}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Modeling of Sequential Circuit with BDD/ADD}{16}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Modeling of Sequential Circuit with Monte-carlo Techniques}{16}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Modeling of Sequential Circuit with Markovian-Chain Analysis}{16}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Research Axis 3: Radiation Bombardment}{16}{section.3.3}
+\contentsline {section}{\numberline {3.4}Optional Research Axis: Fault Mitigation}{17}{section.3.4}
+\contentsline {section}{\numberline {3.5}Project Plan}{17}{section.3.5}
+\contentsline {chapter}{\numberline {4}PRELIMINARY RESULTS}{19}{chapter.4}
+\select@language {english}
+\contentsline {section}{\numberline {4.1}Relative Sensitivity Based Emulation}{19}{section.4.1}
+\contentsline {section}{\numberline {4.2}High-Level Fault Model}{19}{section.4.2}
+\contentsline {section}{\numberline {4.3}Sequential Circuits Fault model}{19}{section.4.3}
+\contentsline {section}{\numberline {4.4}Conclusion}{22}{section.4.4}
+\contentsline {chapter}{\numberline {5}CONCLUSIONS}{24}{chapter.5}
+\select@language {english}
+\contentsline {section}{\numberline {5.1}Work Breakdown Structure}{24}{section.5.1}
+\contentsline {section}{\numberline {5.2}Timetable}{26}{section.5.2}
+\contentsline {compteur}{REFERENCES}{27}{chapter*.5}

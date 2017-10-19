@@ -1,0 +1,50 @@
+\BOOKMARK [0][-]{chapter*.1}{ABSTRACT}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{TABLE OF CONTENTS}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{LIST OF FIGURES}{}% 3
+\BOOKMARK [0][-]{chapter*.4}{LIST OF ABBREVIATIONS}{}% 4
+\BOOKMARK [0][-]{chapter.1}{1 INTRODUCTION}{}% 5
+\BOOKMARK [1][-]{section.1.1}{1.1 Context and Motivation}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{1.2 Problem Statement}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{1.3 Research Objectives}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{1.4 Novelty and Impact}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{2 LITERATURE REVIEW}{}% 10
+\BOOKMARK [1][-]{section.2.1}{2.1 Radiation Environment}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.2}{2.2 Radiation Effects on FPGA}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.3}{2.3 Neutron Effects on Electronics}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.4}{2.4 Fault Injection}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Simulation}{section.2.4}% 15
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Emulation}{section.2.4}% 16
+\BOOKMARK [2][-]{subsection.2.4.3}{2.4.3 Radiation testing}{section.2.4}% 17
+\BOOKMARK [1][-]{section.2.5}{2.5 Fault Models}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.5.1}{2.5.1 Stuck-at Fault Model}{section.2.5}% 19
+\BOOKMARK [2][-]{subsection.2.5.2}{2.5.2 Functional Fault Model}{section.2.5}% 20
+\BOOKMARK [2][-]{subsection.2.5.3}{2.5.3 Open Fault}{section.2.5}% 21
+\BOOKMARK [2][-]{subsection.2.5.4}{2.5.4 Stuck-On and Stuck-Off}{section.2.5}% 22
+\BOOKMARK [1][-]{section.2.6}{2.6 Faults Behavioural Modeling}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.7}{2.7 Combinational Testing Vs. Sequential Testing}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.7.1}{2.7.1 Built-In Self-Test \(BIST\)}{section.2.7}% 25
+\BOOKMARK [2][-]{subsection.2.7.2}{2.7.2 All Test Pattern Generator \(ATPG\)}{section.2.7}% 26
+\BOOKMARK [2][-]{subsection.2.7.3}{2.7.3 Scan Chain Testing}{section.2.7}% 27
+\BOOKMARK [1][-]{section.2.8}{2.8 Conclusion}{chapter.2}% 28
+\BOOKMARK [0][-]{chapter.3}{3 PROPOSED APPROACH}{}% 29
+\BOOKMARK [1][-]{section.3.1}{3.1 Research Axis 1: Measuring Sequential Circuit Testing and Reliability}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Emulation Environment and Framework}{section.3.1}% 31
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Sequential Circuit Fault Injection Mechanism}{section.3.1}% 32
+\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 Sequential Circuit Test Generation}{section.3.1}% 33
+\BOOKMARK [1][-]{section.3.2}{3.2 Research Axis 2: Modeling of Sequential Circuit}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Modeling of Sequential Circuit with Model Checking}{section.3.2}% 35
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Modeling of Sequential Circuit with BDD/ADD}{section.3.2}% 36
+\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 Modeling of Sequential Circuit with Monte-carlo Techniques}{section.3.2}% 37
+\BOOKMARK [2][-]{subsection.3.2.4}{3.2.4 Modeling of Sequential Circuit with Markovian-Chain Analysis}{section.3.2}% 38
+\BOOKMARK [1][-]{section.3.3}{3.3 Research Axis 3: Radiation Bombardment}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.4}{3.4 Optional Research Axis: Fault Mitigation}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.5}{3.5 Project Plan}{chapter.3}% 41
+\BOOKMARK [0][-]{chapter.4}{4 PRELIMINARY RESULTS}{}% 42
+\BOOKMARK [1][-]{section.4.1}{4.1 Relative Sensitivity Based Emulation}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.2}{4.2 High-Level Fault Model}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.3}{4.3 Sequential Circuits Fault model}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.4}{4.4 Conclusion}{chapter.4}% 46
+\BOOKMARK [0][-]{chapter.5}{5 CONCLUSIONS}{}% 47
+\BOOKMARK [1][-]{section.5.1}{5.1 Work Breakdown Structure}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.2}{5.2 Timetable}{chapter.5}% 49
+\BOOKMARK [0][-]{chapter*.5}{REFERENCES}{}% 50
