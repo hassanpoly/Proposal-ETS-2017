@@ -1,4 +1,4 @@
-\Chapter{LITERATURE REVIEW}\label{sec:related}\selectlanguage{english}
+\Chapter{LITERATURE REVIEW \& PRIOR WORK}\label{sec:related}\selectlanguage{english}
 
 
 This chapter is dedicated to the revision of some of the fundamental concepts and current research in different areas related to this project: radiation effects on SRAM-FPGAs, soft-error, hard-error. Fault-injection, SEUs, Signatures, and benchmarks for radation testing. All of these topics are equally relevant for the purpose of this research that, ideally, places itself as an attractive research project.
@@ -53,7 +53,7 @@ effects). SEE can if not handled well cause unwanted functional interrupts or in
 
 
 
-\section{Radiation Effects on FPGA}
+\subsection{Neutrons Effects on FPGA}
 
 FPGAs are complex reconfigurable devices that comprise a wide family of different resources. The basic structure of modern FPGAs includes interconnect resources, clock-management resources, configurable logic blocks (CLBs), input/output
 blocks (IOBs), and embedded blocks such as digital signal processors (DSPs), general-purpose processors, high-speed IOBs, and memories. CLBs are used to perform simple
@@ -76,7 +76,7 @@ device.
 
 
 
-
+\subsection{Shielding Effect}
 
 The process starts with the system design written
 in a hardware description language (HDL), e.g., VHDL or Verilog. Next, the design is optimized and mapped into the FPGA’s available resources through logical synthesis,
@@ -103,9 +103,14 @@ suitable for complex systems requiring frequent reconfiguration and adaptation~\
 \end{figure}
 
 
-\section{Neutron Effects on Electronics}
+\section{Faults Caused by Cosmic Rays in Digital Circuits}
+\subsection{Single Event Effects Mechanism}
+%\subsection{Faults, and Failure}
 
-\section{Fault Injection}
+
+\section{Design Verification by Fault Injection}
+
+
 
 As we discussed before, SRAM-based FPGAs are particularly sensitive to SEUs. The configuration memory is the most sensitive part, by changing the configuration memory, may affect the overall functionality of the system. The work have done so far deal the SEU effects on FPGAs, combines the simulation, radiation, and emulation testing~\cite{quinn2015validation, violante2004simulation, hobeika2014multi, robache2013methodology, quinn2015using, souari2015optimization}. These papers described how they make the faulty behavior of the system to build an accurate representation of the system. The work presented in~\cite{quinn2015using} described the benchmark that can be used for the reliability and radiation effects study on FPGAs and microprocessors. FPGAs offer high densities and run-time programmability facility make inconvenient to use in the aerospace domain. But, FPGAs are sensitive to high-energy ions.  We need to study the sensitivity of SRAM-based FPGAs to heavy ions that show the suitability and analysis of effects of radiation on FPGAs when employed in space, e.g., usage of FPGAs in aircraft. The work presented in~\cite{hobeika2014multi} investigate the sensitivity of SRAM-based FPGAs devices not only for the simulation-based approach but also used emulation and radiation testing for evaluating the effects of SEUs. The work presented in~\cite{souari2015optimization} described the fault injection emulation in Xilinx FPGA based on the identification of critical configuration bits. Based on SRAM-based FPGAs, two aspects can be considered:
 
@@ -166,14 +171,22 @@ These classification steps are done with the help of EBC and EBD files provided 
 The hardware setup consists of two Artix-7 board. Board A used as a reference and board- B is subjected to radiations. The board-A is not bombarded, and it hosted the counters, reference design error detection and signature computation, memories to store signatures and communication controller. A total 20 runs performed on the adder and 14 on the multipliers. Arithmetic errors for both approached DSP and LUT are observed (151 vs. 291 for DSP). This is due to DSP strategy; SEUs can add registers in the data path, leading to the sequential type of errors. The authors in this work compare the results from the fault simulation, fault emulation, and radiation testing. The purpose is to express as signatures, intended to reproduce the faulty behavior. They showed that simulation and emulation based signatures could contain the same error values as obtained with radiation but their probability of occurrence could significantly different. The arithmetic signature for TRIUMF to emulation is 85.3 % for adder and 84.8% for the multiplier. Similarly, the matching with the simulation of adder and multiplier with TRIUMF is 84.8 % and 100 % respectively.
 
 
+
+%\subsection{Stuck-at Fault Model}
+%\subsection{Functional Fault Model}
+%\subsection{Open Fault}
+%\subsection{Stuck-On and Stuck-Off}
+
+
 \section{Fault Models}
+
+
 \subsection{Stuck-at Fault Model}
+
 \subsection{Functional Fault Model}
-\subsection{Open Fault}
-\subsection{Stuck-On and Stuck-Off}
 
 
-\section{Faults Behavioural Modeling}
+
 
 
 
@@ -240,11 +253,11 @@ The impact of SEUs on SRAM FPGA devices has been studied in~\cite{bellato2004eva
 
 Memory scrubbing is a well-known correction technique for the configuration memory of SRAM-based FPGAs. It consists on re-writing the configuration memory after the FPGA is configured to restore its original content. It is often a transparent operation for the running application. This is possible because modern FPGAs offer a dynamic partial reconfiguration (DPR) feature. The circuit that enables the scrubbing is commonly named scrubber. Additionally, readback is the process of reading the configuration memory of the FPGA after it is configured. Both processes (readback and scrubbing) can be used to implement different scrubbing methodologies as shown in~\cite{herrera2013design}. Scrubbing can be implemented using an internal or external interface as shown in~\cite{berg2008effectiveness}. When external interface is used, the scrubbing logic is implemented outside the FPGA. In the case of Xilinx FPGAs several external interfaces are available; however, the Select MAP interface has the highest data throughput. On the other hand, there is only one internal interface named ICAP~\cite{xilinx}. This internal interface can be accessed from the reconfigurable logic of the FPGA and it is a replica of the Select MAP interface. Also scrubbers can be implemented in software or hardware. The scrubbing process can be implemented using a microprocessor with the advantage of a high flexibility to implement different complex scrubbing methodologies but with lower configuration speeds and lower energy efficiency.
 
-\section{Combinational Testing Vs. Sequential Testing}
+\section{Faults Behavioural Modeling}
 
-\subsection{Built-In Self-Test (BIST)}
-\subsection{All Test Pattern Generator (ATPG)}
-\subsection{Scan Chain Testing}
+%\subsection{Built-In Self-Test (BIST)}
+%\subsection{All Test Pattern Generator (ATPG)}
+%\subsection{Scan Chain Testing}
 
 \section{Conclusion}
 The work done so far [1, 2, 3, 4, and 5] evaluated and quantified the SEU effects by performing simulation, emulation, and radiation on an SRAM-based FPGA. Implemented a design, observed its faulty behavior in the presence of SEU and extracted the corresponding fault model. Presented an automated methodology to efficiently used the SEU controller. Discussed the fault injection on the specific subsets rather than random and discussed the selection of the suitable benchmark for FPGA and microprocessor radiations. 
